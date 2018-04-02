@@ -1,0 +1,38 @@
+spring:
+   datasource:
+     url: jdbc:mysql://127.0.0.1:3307/ylcto?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+     username: root
+     password: liubing
+     driver-class-name: com.mysql.jdbc.Driver
+   jpa:
+     show-sql: true
+   jackson:
+     default-property-inclusion: non_null
+   redis:
+     host: 192.168.87.129
+     port: 6379
+     password:
+server:
+  context-path: /sell
+  port: 8080
+wechat:
+  mpAppId: wxa57876098cc17d18
+  mpAppSecret: 86d8e14ea43295a46ed852912c8986e6
+  mchId:
+  mchKey:
+  keyPath:
+  notifyUrl: http://localhost:8080/sell/pay/notify
+  openAppId:
+  openAppSecret:
+  templateId:
+    orderStatus:	tAg-NnxDV_t4tetw-iQeFnzO9_0Wx7Bi9h-CouJ176A
+
+logging:
+  level:
+    com.abing.sell.dataobject.mapper: trace
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+projectUrl:
+  wechatMpAuthorize: http://localhost:8080
+  wechatOpenAuthorize: http://localhost:8080
+  sell: http://localhost:8080
