@@ -1,3 +1,3 @@
 # sell
 
-![image](http://github.com/liubing67/sell/raw/master/images/1.jpg)
+![image](http://github.com/liubing67/sell/raw/master/image/1.jpg)
