@@ -1,2 +1,3 @@
 # sell
-https://github.com/liubing67/sell/blob/master/image/1.png
+
+![image](http://github.com/liubing67/sell/raw/master/images/1.jpg)
