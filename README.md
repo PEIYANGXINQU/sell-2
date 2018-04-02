@@ -1,3 +1,3 @@
 # sell
 
-![Image text](http://github.com/liubing67/sell/tree/master/image/1.png)
+![Image](http://github.com/liubing67/sell/image/1.png)
